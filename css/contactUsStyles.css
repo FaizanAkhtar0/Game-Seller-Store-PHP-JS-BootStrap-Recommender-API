@@ -1,0 +1,38 @@
+.StaticSlider{
+    margin: 0;
+    padding: 0;
+}
+
+.StaticSlider form{
+    margin: 0;
+    padding: 0;
+    background: url(../repository/Trendings/fortnite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 40%;
+    background-color: teal;
+    height: 500px;
+    width: auto;
+}
+
+.contactus{
+    height: 400px;
+    width: 300px;
+    padding-top: 200px;
+    background-color: white;
+    margin-left: 200px;
+    background: transparent;
+}
+
+.contactus h2{
+    border: none;
+    padding: 30px 60px;
+    border-left: 3px solid aqua;
+    transition: all 0.5s ease;
+}
+
+.contactus h2:hover{
+    color: white;
+    background-color: aqua;
+    border-left: 3px solid white;
+}

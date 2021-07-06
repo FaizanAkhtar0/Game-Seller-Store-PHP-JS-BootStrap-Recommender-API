@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../repository/Login/assassins-creed-new-4k-wallpaper-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-signin{
+    max-width: 430px;
+    height: 500px;
+    padding: 100px 30px;
+    margin: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    background: transparent;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.fontColorGreen{
+    color: green;
+}
+
+.fontColorBlack{
+    color: black;
+}
+
+.inputBox{
+    border: none;
+    margin: none;
+    border-bottom: 3px solid rgb(90, 159, 177);
+    box-shadow: 0px 5px 7px gray;
+    background: transparent;
+}
+
+.inputBox::placeholder{
+    color: black;
+}
+
+.inputBox:focus{
+    /* background: transparent; */
+    z-index: 2;
+    box-shadow: 0px 0px 10px white;
+}
+
+.loginBtn{
+    border: none;
+    border-bottom: 3px solid rgb(90, 159, 177);
+    color: whitesmoke;
+    box-shadow: 0px 5px 7px gray;
+    font-weight: 100;
+}
+
+.loginBtn:hover{
+    background-color: rgb(90, 159, 177);
+    color: white;
+}
+
+.error{
+    margin-top: 40px;
+    border-top: 2px solid rgb(8, 184, 8);
+}

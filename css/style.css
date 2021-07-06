@@ -1,0 +1,204 @@
+@font-face {
+    font-family: myBrandFont;
+    src: url("../webfonts/austina.ttf");
+    font-weight: Bold;
+}
+
+.brandIcon{
+    padding-top: 7px;
+    font-family: myBrandFont;
+}
+
+.brandIcon:hover{
+    color: aqua;
+}
+
+.btnHover {    
+    transition: 0.3s;
+}
+
+body{
+    padding-top: 78px;
+}
+
+.btnHover:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.divWhiteBackground{
+    background-color: white;
+}
+
+#navbarMenu ul{
+    border-left: 1px solid gray;
+}
+
+#moreDropDown{
+    background-color: #343A40;
+    border: none;
+}
+
+
+#TrendingsContent div{
+    width: 12%;
+    padding: 0px;
+}
+
+.container-Card{
+    margin-top: 5%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner img:hover{
+    transform: scale(1.5);
+}
+
+.Columns{
+    margin-right: 30px;
+    height: 330px;
+    width: auto;
+}
+
+.Columns img {
+    max-height: 100.1%; /* ".1" just to avoid small lines due to browser rendering */
+    max-width: 100.1%; /* ".1" just to avoid small lines due to browser rendering */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.card-Spacing{
+    margin-right: 7%;
+}
+
+.card-zoom{
+    transition: all 1.5s ease;
+}
+
+.card-zoon:hover{
+    transform: scale(1.5);
+}
+
+
+.bg{
+    background-image: url(../repository/slider/5.jpg);
+}
+
+.bg-container{
+    padding-top: 0;
+}
+
+.bg-fixed {
+    background-attachment: fixed !important;
+    opacity: 0.89;
+}
+.bg-pattern {
+    position: relative;
+    z-index: 2;
+}
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-section-padding-100-0 {
+     padding: 0px 0px;
+}
+
+.prefooterStyle{
+    background: url(../repository/footer/pattern.png);
+    background-repeat: repeat;
+    background-color: #DCDCDC;
+}
+
+.articleContent{
+    width: 100%;
+    padding: 10px;
+    clear: none;
+}
+
+.articleImage{
+    overflow: hidden;
+}
+
+.articleImage img:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+    background-color: aqua;
+}
+
+.articleContent img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    transition: all 1.5s ease;
+}
+
+.articleContent div{
+    float: left;
+}
+
+.articleWrittenContent{
+    height: 100%;
+    width: 790px;
+    margin-left: 10px;
+}
+
+.articleContent p{
+    color: white;
+    width: 100%;
+    height: 60%;
+    max-height: 130px;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+
+.articleContent h2,h6{
+    color: white;
+}
+
+.footerStyle{
+    border-top: 1px solid #FFFF;
+    background-image: url(../repository/footer/pattern.png);
+    background-repeat: repeat;
+    background-color: #0c0c0c;
+}
+
+.footerStyle a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.footerStyle a:hover{
+    color: aqua;
+}
+
+.footerStyle h5{
+    color: white;
+}
+
+.footerStyle p:hover{
+    color: whitesmoke;
+}
+
+.endFooterStyle{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}

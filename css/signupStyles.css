@@ -1,0 +1,44 @@
+.rowColor{
+    background-color: white;
+}
+
+.containerBackground{
+    background-image: url(../repository/Login/46530.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    opacity: 0.89;
+}
+
+.signupForm{
+    background: url(../repository/Login/L.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 67px auto;
+    height: 500px;
+    box-shadow: -5px 0px 10px rgb(196, 209, 146);
+}
+
+.rowCenter{
+    top: 20%;
+}
+
+.formContent{
+    background-color: white;
+    margin: 0px;
+    margin-left: 60%;
+    max-height: 500px;
+    height: 500px;
+    padding: 80px 50px;
+    /* background-color: brown; */
+    box-shadow: -5px 0px 10px rgb(67, 194, 145);
+}
+
+.btnSignup{
+    margin-top: 9px;
+    display: inline-block;
+    max-width: 169px;
+}
